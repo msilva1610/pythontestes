@@ -1,0 +1,242 @@
+  <SOAP-ENV:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns7:QueryCustomerPartyResponseEBM xmlns:ns2="http://www.sky.com.br/ArchitectureSchemas" xmlns:ns1="http://xmlns.oracle.com/EnterpriseObjects/Core/Custom/EBO/CustomerParty/V2" xmlns:ns4="http://xmlns.oracle.com/EnterpriseObjects/Core/Custom/Common/V2" xmlns:ns5="http://xmlns.oracle.com/EnterpriseObjects/Core/Common/V2" xmlns:ns7="http://xmlns.oracle.com/EnterpriseObjects/Core/EBO/CustomerParty/V2">
+      <ns5:EBMHeader>
+        <ns5:Custom>
+          <ns2:ResponseHeader>
+            <ns2:returnCode>0</ns2:returnCode>
+            <ns2:returnMessage>Sucesso</ns2:returnMessage>
+          </ns2:ResponseHeader>
+        </ns5:Custom>
+      </ns5:EBMHeader>
+      <ns7:DataArea>
+        <ns5:QueryResponse />
+        <ns7:QueryCustomerPartyResponse>
+          <ns5:Identification>
+            <ns5:ID>7569815</ns5:ID>
+          </ns5:Identification>
+          <ns5:PartyLocation>
+            <ns5:LocationReference>
+              <ns5:Custom>
+                <ns4:EmailCommunicationType>PRINCIPAL</ns4:EmailCommunicationType>
+                <ns4:EmailCommunication>Roscoe.Banvard@msn.uk</ns4:EmailCommunication>
+              </ns5:Custom>
+            </ns5:LocationReference>
+          </ns5:PartyLocation>
+          <ns5:Person>
+            <ns5:GenderCode>Male</ns5:GenderCode>
+            <ns5:MaritalStatusCode>CASADO</ns5:MaritalStatusCode>
+            <ns5:BirthDateTime>1970-10-16T00:00:00</ns5:BirthDateTime>
+            <ns5:TaxPayerIdentificationNumber>98687407880</ns5:TaxPayerIdentificationNumber>
+            <ns5:PersonName>
+              <ns5:FullName>Lyndon Roberts</ns5:FullName>
+              <ns5:FirstName>Lyndon</ns5:FirstName>
+              <ns5:FamilyName>Roberts</ns5:FamilyName>
+            </ns5:PersonName>
+            <ns5:Custom />
+          </ns5:Person>
+          <ns5:Status>
+            <ns5:Code>Active</ns5:Code>
+          </ns5:Status>
+          <ns5:ParentCustomerPartyReference>
+            <ns5:PartyIdentification>
+              <ns5:ID>07569815</ns5:ID>
+            </ns5:PartyIdentification>
+          </ns5:ParentCustomerPartyReference>
+          <ns7:CustomerPartyAccount>
+            <ns5:Identification>
+              <ns5:ID>7569815</ns5:ID>
+            </ns5:Identification>
+            <ns7:ClassificationCode>N</ns7:ClassificationCode>
+            <ns5:Status>
+              <ns5:Code>Active</ns5:Code>
+            </ns5:Status>
+            <ns5:BillingProfileIdentification>
+              <ns5:ID>1-JSHI-2</ns5:ID>
+            </ns5:BillingProfileIdentification>
+            <ns5:ParentCustomerPartyAccountIdentification>
+              <ns5:ID>07569815</ns5:ID>
+            </ns5:ParentCustomerPartyAccountIdentification>
+            <ns7:CustomerPartyOverdueCollectionRule />
+            <ns7:Custom>
+              <ns1:PaymentMethodCode>Debit</ns1:PaymentMethodCode>
+              <ns1:WithHoldingTaxIndicator>false</ns1:WithHoldingTaxIndicator>
+              <ns1:FaxCommunication>
+                <ns5:AreaCode>11</ns5:AreaCode>
+                <ns5:LocalNumber>+5535553388</ns5:LocalNumber>
+              </ns1:FaxCommunication>
+              <ns1:MobileCommunication>
+                <ns5:AreaCode>11</ns5:AreaCode>
+                <ns5:LocalNumber>985556351</ns5:LocalNumber>
+              </ns1:MobileCommunication>
+              <ns1:CommercialPhoneCommunication>
+                <ns5:AreaCode>11</ns5:AreaCode>
+                <ns5:LocalNumber>25552115</ns5:LocalNumber>
+              </ns1:CommercialPhoneCommunication>
+              <ns1:PayAccountIndicator>true</ns1:PayAccountIndicator>
+              <ns1:DNA>110000000001000100000001000000001000000000000000000000000000000000000010000000000000001010110000010000000000000010000000000000000000001001000000000101000100000000000000000000000000000001000000001000010010001111111111111000000000011110101111101100010000000000000111111111111111111111100011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111010</ns1:DNA>
+              <ns5:LocationReference>
+                <ns5:Address>
+                  <ns5:Identification>
+                    <ns5:ID>1-JSFL-1</ns5:ID>
+                  </ns5:Identification>
+                  <ns5:FormatCode>AV</ns5:FormatCode>
+                  <ns5:LineOne>160 COMMONWEATH AVENUE</ns5:LineOne>
+                  <ns5:LineTwo>78452</ns5:LineTwo>
+                  <ns5:LineThree>Ut# 3</ns5:LineThree>
+                  <ns5:LineFour>BL 11 AP 152</ns5:LineFour>
+                  <ns5:CityName>SAO PAULO</ns5:CityName>
+                  <ns5:StateName>SP</ns5:StateName>
+                  <ns5:CountryCode>Brazil</ns5:CountryCode>
+                  <ns5:CitySubDivisionName>VILA ANDRADE</ns5:CitySubDivisionName>
+                  <ns5:LongPostalCode>05724005</ns5:LongPostalCode>
+                  <ns5:GEOCodeID>BRQ00100</ns5:GEOCodeID>
+                  <ns5:Custom>
+                    <ns4:Directions>PROX AO TERMINAL JOAO DIAS AO LADO DO CARREFUOR</ns4:Directions>
+                    <ns4:TypeCode>RES</ns4:TypeCode>
+                    <ns4:PropertyType>APTO</ns4:PropertyType>
+                  </ns5:Custom>
+                </ns5:Address>
+                <ns5:Custom>
+                  <ns4:PhoneCommunication>
+                    <ns5:AreaCode>11</ns5:AreaCode>
+                    <ns5:LocalNumber>35559890</ns5:LocalNumber>
+                  </ns4:PhoneCommunication>
+                  <ns4:LastUpdateDate>2015-10-09T22:20:20</ns4:LastUpdateDate>
+                  <ns4:LocationStatusCode>ATIVO</ns4:LocationStatusCode>
+                  <ns4:Typification>INSTALACAO</ns4:Typification>
+                  <ns4:PremisseFlag>false</ns4:PremisseFlag>
+                </ns5:Custom>
+              </ns5:LocationReference>
+              <ns5:LocationReference>
+                <ns5:Address>
+                  <ns5:Identification>
+                    <ns5:ID>1-JSFL-3</ns5:ID>
+                  </ns5:Identification>
+                  <ns5:FormatCode>AV</ns5:FormatCode>
+                  <ns5:LineOne>160 COMMONWEATH AVENUE</ns5:LineOne>
+                  <ns5:LineTwo>78452</ns5:LineTwo>
+                  <ns5:LineThree>Ut# 3</ns5:LineThree>
+                  <ns5:LineFour>BL 11 AP 152</ns5:LineFour>
+                  <ns5:CityName>SAO PAULO</ns5:CityName>
+                  <ns5:StateName>SP</ns5:StateName>
+                  <ns5:CountryCode>Brazil</ns5:CountryCode>
+                  <ns5:CitySubDivisionName>VILA ANDRADE</ns5:CitySubDivisionName>
+                  <ns5:LongPostalCode>05724005</ns5:LongPostalCode>
+                  <ns5:GEOCodeID>BRQ00100</ns5:GEOCodeID>
+                  <ns5:Custom>
+                    <ns4:Directions>PROX AO TERMINAL JOAO DIAS AO LADO DO CARREFUOR</ns4:Directions>
+                    <ns4:TypeCode>RES</ns4:TypeCode>
+                    <ns4:PropertyType>APTO</ns4:PropertyType>
+                  </ns5:Custom>
+                </ns5:Address>
+                <ns5:Custom>
+                  <ns4:PhoneCommunication>
+                    <ns5:AreaCode>11</ns5:AreaCode>
+                    <ns5:LocalNumber>35559890</ns5:LocalNumber>
+                  </ns4:PhoneCommunication>
+                  <ns4:LastUpdateDate>2015-10-09T22:20:20</ns4:LastUpdateDate>
+                  <ns4:LocationStatusCode>ATIVO</ns4:LocationStatusCode>
+                  <ns4:Typification>ENTREGA</ns4:Typification>
+                  <ns4:PremisseFlag>false</ns4:PremisseFlag>
+                </ns5:Custom>
+              </ns5:LocationReference>
+              <ns5:LocationReference>
+                <ns5:Address>
+                  <ns5:Identification>
+                    <ns5:ID>1-JSFL-2</ns5:ID>
+                  </ns5:Identification>
+                  <ns5:FormatCode>AV</ns5:FormatCode>
+                  <ns5:LineOne>160 COMMONWEATH AVENUE</ns5:LineOne>
+                  <ns5:LineTwo>78452</ns5:LineTwo>
+                  <ns5:LineThree>Ut# 3</ns5:LineThree>
+                  <ns5:LineFour>BL 11</ns5:LineFour>
+                  <ns5:CityName>SAO PAULO</ns5:CityName>
+                  <ns5:StateName>SP</ns5:StateName>
+                  <ns5:CountryCode>Brazil</ns5:CountryCode>
+                  <ns5:CitySubDivisionName>VILA ANDRADE</ns5:CitySubDivisionName>
+                  <ns5:LongPostalCode>05724005</ns5:LongPostalCode>
+                  <ns5:GEOCodeID>BRQ00100</ns5:GEOCodeID>
+                  <ns5:Custom>
+                    <ns4:Directions>.</ns4:Directions>
+                    <ns4:TypeCode>RES</ns4:TypeCode>
+                    <ns4:PropertyType>APTO</ns4:PropertyType>
+                  </ns5:Custom>
+                </ns5:Address>
+                <ns5:Custom>
+                  <ns4:PhoneCommunication>
+                    <ns5:AreaCode>11</ns5:AreaCode>
+                    <ns5:LocalNumber>35559890</ns5:LocalNumber>
+                  </ns4:PhoneCommunication>
+                  <ns4:LastUpdateDate>2015-10-09T22:20:20</ns4:LastUpdateDate>
+                  <ns4:LocationStatusCode>ATIVO</ns4:LocationStatusCode>
+                  <ns4:Typification>COBRANCA</ns4:Typification>
+                  <ns4:PremisseFlag>false</ns4:PremisseFlag>
+                </ns5:Custom>
+              </ns5:LocationReference>
+              <ns5:CustomerPartyReference>
+                <ns5:PartyIdentification>
+                  <ns5:ID>07569815</ns5:ID>
+                </ns5:PartyIdentification>
+              </ns5:CustomerPartyReference>
+              <ns1:DueDate>22</ns1:DueDate>
+              <ns5:BankPartyReference>
+                <ns5:PartyIdentification>
+                  <ns5:ID>341</ns5:ID>
+                </ns5:PartyIdentification>
+                <ns5:Custom>
+                  <ns4:BankName>ITAU</ns4:BankName>
+                  <ns4:AccountNumber>20505</ns4:AccountNumber>
+                  <ns4:AccountDigit>5</ns4:AccountDigit>
+                </ns5:Custom>
+              </ns5:BankPartyReference>
+              <ns5:BankBranchReference>
+                <ns5:BankBranchIdentification>
+                  <ns5:ID>2958</ns5:ID>
+                </ns5:BankBranchIdentification>
+              </ns5:BankBranchReference>
+              <ns1:CreditCard>
+                <ns5:Number>****111111111111</ns5:Number>
+                <ns5:Custom />
+              </ns1:CreditCard>
+              <ns1:CommercialStatus>
+                <ns5:Code>N</ns5:Code>
+              </ns1:CommercialStatus>
+              <ns1:FirstActivationDate>2000-10-07</ns1:FirstActivationDate>
+              <ns1:LastAdjustmentDate>2000-10-07</ns1:LastAdjustmentDate>
+              <ns1:DeliveryMethod>6</ns1:DeliveryMethod>
+              <ns1:BillAllowedIndicator>false</ns1:BillAllowedIndicator>
+              <ns1:ShippingType>F</ns1:ShippingType>
+              <ns1:NotBillable>false</ns1:NotBillable>
+              <ns1:NotEnterCollectionRuleIndicator>false</ns1:NotEnterCollectionRuleIndicator>
+              <ns1:ExLivreIndicator>false</ns1:ExLivreIndicator>
+              <ns1:NotOpenWorkOrderIndicator>false</ns1:NotOpenWorkOrderIndicator>
+              <ns1:TypeCode>F</ns1:TypeCode>
+              <ns1:OrganizationType>Funcion�rios</ns1:OrganizationType>
+              <ns1:VivaSKYIndicator>true</ns1:VivaSKYIndicator>
+              <ns5:PersonReference>
+                <ns5:PersonIdentification>
+                  <ns5:ID>1-JSE4-1</ns5:ID>
+                </ns5:PersonIdentification>
+                <ns5:Custom>
+                  <ns4:FirstName>MAURILIO</ns4:FirstName>
+                  <ns4:FamilyName>PAULO DA SILVA</ns4:FamilyName>
+                </ns5:Custom>
+              </ns5:PersonReference>
+            </ns7:Custom>
+          </ns7:CustomerPartyAccount>
+          <ns7:CustomerPartyPrivacyProfile>
+            <ns7:PhoneCommunicationAllowedIndicator>false</ns7:PhoneCommunicationAllowedIndicator>
+            <ns7:EmailCommunicationAllowedIndicator>false</ns7:EmailCommunicationAllowedIndicator>
+            <ns7:MailCommunicationAllowedIndicator>false</ns7:MailCommunicationAllowedIndicator>
+            <ns7:Custom />
+          </ns7:CustomerPartyPrivacyProfile>
+          <ns7:Custom>
+            <ns1:CFOP>307</ns1:CFOP>
+            <ns1:CreationDateTime>2000-10-07T00:00:00</ns1:CreationDateTime>
+            <ns1:Treatment>SR</ns1:Treatment>
+            <ns1:RowId>1-JS9T-1</ns1:RowId>
+          </ns7:Custom>
+        </ns7:QueryCustomerPartyResponse>
+      </ns7:DataArea>
+    </ns7:QueryCustomerPartyResponseEBM>
+  </SOAP-ENV:Body>
